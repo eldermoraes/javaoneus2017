@@ -11,7 +11,7 @@ To try it by yourself:
 
 Open your browser and try this address:
 
-http://localhost/ocsp17
+http://localhost/javaone
 
 If everything worked fine, you should see a web page like this:
 
