@@ -1,0 +1,383 @@
+Aug 12, 2017 4:22:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat (TomEE)/7.0.62 (1.7.2)
+Aug 12, 2017 4:22:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2015 17:14:55 UTC
+Aug 12, 2017 4:22:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.62.0
+Aug 12, 2017 4:22:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Aug 12, 2017 4:22:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.9.27-moby
+Aug 12, 2017 4:22:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Aug 12, 2017 4:22:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+Aug 12, 2017 4:22:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_66-internal-b17
+Aug 12, 2017 4:22:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Aug 12, 2017 4:22:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /usr/local/tomee
+Aug 12, 2017 4:22:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /usr/local/tomee
+Aug 12, 2017 4:22:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/usr/local/tomee/conf/logging.properties
+Aug 12, 2017 4:22:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Aug 12, 2017 4:22:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -javaagent:/usr/local/tomee/lib/openejb-javaagent.jar
+Aug 12, 2017 4:22:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/usr/local/tomee/endorsed
+Aug 12, 2017 4:22:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/usr/local/tomee
+Aug 12, 2017 4:22:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/usr/local/tomee
+Aug 12, 2017 4:22:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/usr/local/tomee/temp
+Aug 12, 2017 4:22:16 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Aug 12, 2017 4:22:16 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Aug 12, 2017 4:22:16 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Aug 12, 2017 4:22:17 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+Aug 12, 2017 4:22:17 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: ********************************************************************************
+Aug 12, 2017 4:22:17 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: OpenEJB http://tomee.apache.org/
+Aug 12, 2017 4:22:17 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Startup: Sat Aug 12 16:22:17 UTC 2017
+Aug 12, 2017 4:22:17 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Copyright 1999-2013 (C) Apache OpenEJB Project, All Rights Reserved.
+Aug 12, 2017 4:22:17 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Version: 4.7.2
+Aug 12, 2017 4:22:17 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Build date: 20150517
+Aug 12, 2017 4:22:17 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Build time: 10:10
+Aug 12, 2017 4:22:17 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: ********************************************************************************
+Aug 12, 2017 4:22:17 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: openejb.home = /usr/local/tomee
+Aug 12, 2017 4:22:17 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: openejb.base = /usr/local/tomee
+Aug 12, 2017 4:22:17 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFO: Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@3b2c72c2
+Aug 12, 2017 4:22:17 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFO: Succeeded in installing singleton service
+Aug 12, 2017 4:22:17 PM org.apache.openejb.config.ConfigurationFactory init
+INFO: openejb configuration file is '/usr/local/tomee/conf/tomee.xml'
+Aug 12, 2017 4:22:17 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+Aug 12, 2017 4:22:17 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+Aug 12, 2017 4:22:17 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.system.apps=true'
+Aug 12, 2017 4:22:17 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: openejb
+Aug 12, 2017 4:22:17 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Using openejb.deploymentId.format '{ejbName}'
+Aug 12, 2017 4:22:17 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb openejb/Deployer: EjbDeployment(deployment-id=openejb/Deployer)
+Aug 12, 2017 4:22:17 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb openejb/ConfigurationInfo: EjbDeployment(deployment-id=openejb/ConfigurationInfo)
+Aug 12, 2017 4:22:17 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb MEJB: EjbDeployment(deployment-id=MEJB)
+Aug 12, 2017 4:22:17 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Stateless Container, type=Container, provider-id=Default Stateless Container)
+Aug 12, 2017 4:22:17 PM org.apache.openejb.config.AutoConfig createContainer
+INFO: Auto-creating a container for bean openejb/Deployer: Container(type=STATELESS, id=Default Stateless Container)
+Aug 12, 2017 4:22:17 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "openejb" loaded.
+Aug 12, 2017 4:22:17 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating TransactionManager(id=Default Transaction Manager)
+Aug 12, 2017 4:22:17 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating SecurityService(id=Tomcat Security Service)
+Aug 12, 2017 4:22:17 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Container(id=Default Stateless Container)
+Aug 12, 2017 4:22:17 PM org.apache.openejb.assembler.classic.Assembler createAppClassLoader
+INFO: Not creating another application classloader for openejb
+Aug 12, 2017 4:22:17 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: openejb
+Aug 12, 2017 4:22:18 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.jndiname.format={deploymentId}{interfaceType.openejbLegacyName}'
+Aug 12, 2017 4:22:18 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=openejb/DeployerBusinessRemote) --> Ejb(deployment-id=openejb/Deployer)
+Aug 12, 2017 4:22:18 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/openejb/Deployer!org.apache.openejb.assembler.Deployer) --> Ejb(deployment-id=openejb/Deployer)
+Aug 12, 2017 4:22:18 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/openejb/Deployer) --> Ejb(deployment-id=openejb/Deployer)
+Aug 12, 2017 4:22:18 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=openejb/ConfigurationInfoBusinessRemote) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+Aug 12, 2017 4:22:18 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/openejb/ConfigurationInfo!org.apache.openejb.assembler.classic.cmd.ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+Aug 12, 2017 4:22:18 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/openejb/ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+Aug 12, 2017 4:22:18 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=MEJB) --> Ejb(deployment-id=MEJB)
+Aug 12, 2017 4:22:18 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/MEJB!javax.management.j2ee.ManagementHome) --> Ejb(deployment-id=MEJB)
+Aug 12, 2017 4:22:18 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/MEJB) --> Ejb(deployment-id=MEJB)
+Aug 12, 2017 4:22:18 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=MEJB, ejb-name=MEJB, container=Default Stateless Container)
+Aug 12, 2017 4:22:18 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=Default Stateless Container)
+Aug 12, 2017 4:22:18 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=Default Stateless Container)
+Aug 12, 2017 4:22:18 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=MEJB, ejb-name=MEJB, container=Default Stateless Container)
+Aug 12, 2017 4:22:18 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=Default Stateless Container)
+Aug 12, 2017 4:22:18 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=Default Stateless Container)
+Aug 12, 2017 4:22:18 PM org.apache.openejb.assembler.classic.Assembler deployMBean
+INFO: Deployed MBean(openejb.user.mbeans:application=openejb,group=org.apache.openejb.assembler.monitoring,name=JMXDeployer)
+Aug 12, 2017 4:22:18 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=openejb)
+Aug 12, 2017 4:22:18 PM org.apache.openejb.server.SimpleServiceManager start
+INFO:   ** Bound Services **
+Aug 12, 2017 4:22:18 PM org.apache.openejb.server.SimpleServiceManager printRow
+INFO:   NAME                 IP              PORT  
+Aug 12, 2017 4:22:18 PM org.apache.openejb.server.SimpleServiceManager start
+INFO: -------
+Aug 12, 2017 4:22:18 PM org.apache.openejb.server.SimpleServiceManager start
+INFO: Ready!
+Aug 12, 2017 4:22:18 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2417 ms
+Aug 12, 2017 4:22:18 PM org.apache.tomee.catalina.OpenEJBNamingContextListener bindResource
+INFO: Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+Aug 12, 2017 4:22:18 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Resource(id=UserDatabase)
+Aug 12, 2017 4:22:18 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 12, 2017 4:22:18 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat (TomEE)/7.0.62 (1.7.2)
+Aug 12, 2017 4:22:18 PM org.apache.catalina.ha.tcp.SimpleTcpCluster startInternal
+INFO: Cluster is about to start
+Aug 12, 2017 4:22:18 PM org.apache.catalina.tribes.transport.ReceiverBase bind
+INFO: Receiver Server Socket bound to:/172.17.0.4:5000
+Aug 12, 2017 4:22:18 PM org.apache.catalina.tribes.membership.McastServiceImpl setupSocket
+INFO: Setting cluster mcast soTimeout to 500
+Aug 12, 2017 4:22:18 PM org.apache.catalina.tribes.membership.McastServiceImpl waitForMembers
+INFO: Sleeping for 1000 milliseconds to establish cluster membership, start level:4
+Aug 12, 2017 4:22:18 PM org.apache.catalina.ha.tcp.SimpleTcpCluster memberAdded
+INFO: Replication member added:org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 17, 0, 2}:5000,{172, 17, 0, 2},5000, alive=310087, securePort=-1, UDP Port=-1, id={126 -5 52 -84 21 -66 75 -21 -110 101 -87 103 24 -69 -60 8 }, payload={}, command={}, domain={}, ]
+Aug 12, 2017 4:22:18 PM org.apache.catalina.ha.tcp.SimpleTcpCluster memberAdded
+INFO: Replication member added:org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 17, 0, 3}:5000,{172, 17, 0, 3},5000, alive=298565, securePort=-1, UDP Port=-1, id={82 76 0 -121 -37 71 68 -125 -110 115 54 81 -88 55 33 13 }, payload={}, command={}, domain={}, ]
+Aug 12, 2017 4:22:19 PM org.apache.catalina.tribes.membership.McastServiceImpl waitForMembers
+INFO: Done sleeping, membership established, start level:4
+Aug 12, 2017 4:22:19 PM org.apache.catalina.tribes.membership.McastServiceImpl waitForMembers
+INFO: Sleeping for 1000 milliseconds to establish cluster membership, start level:8
+Aug 12, 2017 4:22:19 PM org.apache.catalina.tribes.io.BufferPool getBufferPool
+INFO: Created a buffer pool with max size:104857600 bytes of type:org.apache.catalina.tribes.io.BufferPool15Impl
+Aug 12, 2017 4:22:20 PM org.apache.catalina.tribes.membership.McastServiceImpl waitForMembers
+INFO: Done sleeping, membership established, start level:8
+Aug 12, 2017 4:22:20 PM org.apache.catalina.ha.deploy.FarmWarDeployer start
+SEVERE: FarmWarDeployer can only work as host cluster subelement!
+Aug 12, 2017 4:22:20 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /usr/local/tomee/webapps/ocsp18.war
+Aug 12, 2017 4:22:20 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /ocsp18
+Aug 12, 2017 4:22:20 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracting jar: /usr/local/tomee/webapps/ocsp18.war
+Aug 12, 2017 4:22:20 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracted path: /usr/local/tomee/webapps/ocsp18
+Aug 12, 2017 4:22:20 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /usr/local/tomee/webapps/ocsp18
+Aug 12, 2017 4:22:20 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/usr/local/tomee/webapps/ocsp18" loaded.
+Aug 12, 2017 4:22:20 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /usr/local/tomee/webapps/ocsp18
+Aug 12, 2017 4:22:20 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@3b2c72c2
+Aug 12, 2017 4:22:20 PM org.apache.catalina.tribes.group.interceptors.ThroughputInterceptor report
+INFO: ThroughputInterceptor Report[
+	Tx Msg:1 messages
+	Sent:0.00 MB (total)
+	Sent:0.00 MB (application)
+	Time:0.01 seconds
+	Tx Speed:0.06 MB/sec (total)
+	TxSpeed:0.06 MB/sec (application)
+	Error Msg:0
+	Rx Msg:4 messages
+	Rx Speed:0.00 MB/sec (since 1st msg)
+	Received:0.00 MB]
+
+Aug 12, 2017 4:22:20 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+Aug 12, 2017 4:22:20 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+Aug 12, 2017 4:22:20 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+Aug 12, 2017 4:22:20 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+Aug 12, 2017 4:22:20 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 132 ms.
+Aug 12, 2017 4:22:20 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/usr/local/tomee/webapps/ocsp18)
+Aug 12, 2017 4:22:21 PM org.apache.catalina.deploy.WebXml setVersion
+WARNING: Unknown version string [3.1]. Default version will be used.
+Aug 12, 2017 4:22:21 PM org.apache.catalina.tribes.tipis.AbstractReplicatedMap init
+INFO: Initializing AbstractReplicatedMap with context name:localhost#/ocsp18-map
+Aug 12, 2017 4:22:21 PM org.apache.catalina.tribes.tipis.AbstractReplicatedMap init
+INFO: AbstractReplicatedMap[localhost#/ocsp18-map] initialization was completed in 30 ms.
+Aug 12, 2017 4:22:21 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /usr/local/tomee/webapps/ocsp18.war has finished in 869 ms
+Aug 12, 2017 4:22:21 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomee/webapps/host-manager
+Aug 12, 2017 4:22:21 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /host-manager
+Aug 12, 2017 4:22:21 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /usr/local/tomee/webapps/host-manager
+Aug 12, 2017 4:22:21 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/usr/local/tomee/webapps/host-manager" loaded.
+Aug 12, 2017 4:22:21 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /usr/local/tomee/webapps/host-manager
+Aug 12, 2017 4:22:21 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@3b2c72c2
+Aug 12, 2017 4:22:21 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+Aug 12, 2017 4:22:21 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+Aug 12, 2017 4:22:21 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+Aug 12, 2017 4:22:21 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+Aug 12, 2017 4:22:21 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 12 ms.
+Aug 12, 2017 4:22:21 PM org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFO: using context file /usr/local/tomee/webapps/host-manager/META-INF/context.xml
+Aug 12, 2017 4:22:21 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/usr/local/tomee/webapps/host-manager)
+Aug 12, 2017 4:22:21 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomee/webapps/host-manager has finished in 200 ms
+Aug 12, 2017 4:22:21 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomee/webapps/ROOT
+Aug 12, 2017 4:22:21 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /
+Aug 12, 2017 4:22:21 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /usr/local/tomee/webapps/ROOT
+Aug 12, 2017 4:22:21 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/usr/local/tomee/webapps/ROOT" loaded.
+Aug 12, 2017 4:22:21 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /usr/local/tomee/webapps/ROOT
+Aug 12, 2017 4:22:21 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@3b2c72c2
+Aug 12, 2017 4:22:21 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+Aug 12, 2017 4:22:21 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+Aug 12, 2017 4:22:21 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+Aug 12, 2017 4:22:21 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+Aug 12, 2017 4:22:21 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 13 ms.
+Aug 12, 2017 4:22:21 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/usr/local/tomee/webapps/ROOT)
+Aug 12, 2017 4:22:21 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomee/webapps/ROOT has finished in 108 ms
+Aug 12, 2017 4:22:21 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomee/webapps/manager
+Aug 12, 2017 4:22:21 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /manager
+Aug 12, 2017 4:22:21 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /usr/local/tomee/webapps/manager
+Aug 12, 2017 4:22:21 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/usr/local/tomee/webapps/manager" loaded.
+Aug 12, 2017 4:22:21 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /usr/local/tomee/webapps/manager
+Aug 12, 2017 4:22:21 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@3b2c72c2
+Aug 12, 2017 4:22:21 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+Aug 12, 2017 4:22:21 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+Aug 12, 2017 4:22:21 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+Aug 12, 2017 4:22:21 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+Aug 12, 2017 4:22:21 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 10 ms.
+Aug 12, 2017 4:22:21 PM org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFO: using context file /usr/local/tomee/webapps/manager/META-INF/context.xml
+Aug 12, 2017 4:22:21 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/usr/local/tomee/webapps/manager)
+Aug 12, 2017 4:22:21 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomee/webapps/manager has finished in 121 ms
+Aug 12, 2017 4:22:21 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomee/webapps/docs
+Aug 12, 2017 4:22:21 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /docs
+Aug 12, 2017 4:22:21 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /usr/local/tomee/webapps/docs
+Aug 12, 2017 4:22:21 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/usr/local/tomee/webapps/docs" loaded.
+Aug 12, 2017 4:22:21 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /usr/local/tomee/webapps/docs
+Aug 12, 2017 4:22:21 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@3b2c72c2
+Aug 12, 2017 4:22:21 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+Aug 12, 2017 4:22:21 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+Aug 12, 2017 4:22:21 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+Aug 12, 2017 4:22:21 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+Aug 12, 2017 4:22:21 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 10 ms.
+Aug 12, 2017 4:22:21 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/usr/local/tomee/webapps/docs)
+Aug 12, 2017 4:22:21 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomee/webapps/docs has finished in 103 ms
+Aug 12, 2017 4:22:21 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Aug 12, 2017 4:22:21 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Aug 12, 2017 4:22:21 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3597 ms
+Aug 12, 2017 6:03:03 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Aug 12, 2017 6:03:03 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Aug 12, 2017 6:03:03 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Aug 12, 2017 6:03:03 PM org.apache.catalina.tribes.tipis.AbstractReplicatedMap memberDisappeared
+INFO: Member[org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 17, 0, 3}:5000,{172, 17, 0, 3},5000, alive=6343319, securePort=-1, UDP Port=-1, id={82 76 0 -121 -37 71 68 -125 -110 115 54 81 -88 55 33 13 }, payload={}, command={}, domain={}, ]] disappeared. Related map entries will be relocated to the new node.
+Aug 12, 2017 6:03:03 PM org.apache.catalina.tribes.tipis.AbstractReplicatedMap memberDisappeared
+INFO: Relocation of map entries was complete in 0 ms.
+Aug 12, 2017 6:03:03 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: /usr/local/tomee/webapps/ocsp18
+Aug 12, 2017 6:03:03 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: /usr/local/tomee/webapps/host-manager
+Aug 12, 2017 6:03:03 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: /usr/local/tomee/webapps/ROOT
+Aug 12, 2017 6:03:04 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: /usr/local/tomee/webapps/manager
+Aug 12, 2017 6:03:04 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: /usr/local/tomee/webapps/docs
+Aug 12, 2017 6:03:04 PM org.apache.catalina.ha.deploy.FarmWarDeployer stop
+INFO: Cluster FarmWarDeployer stopped.
+Aug 12, 2017 6:03:04 PM org.apache.catalina.tribes.group.interceptors.TcpFailureDetector memberDisappeared
+INFO: Verification complete. Member disappeared[org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 17, 0, 3}:5000,{172, 17, 0, 3},5000, alive=6344525, securePort=-1, UDP Port=-1, id={82 76 0 -121 -37 71 68 -125 -110 115 54 81 -88 55 33 13 }, payload={}, command={66 65 66 89 45 65 76 69 88 ...(9)}, domain={}, ]]
+Aug 12, 2017 6:03:04 PM org.apache.catalina.ha.tcp.SimpleTcpCluster memberDisappeared
+INFO: Received member disappeared:org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 17, 0, 3}:5000,{172, 17, 0, 3},5000, alive=6344525, securePort=-1, UDP Port=-1, id={82 76 0 -121 -37 71 68 -125 -110 115 54 81 -88 55 33 13 }, payload={}, command={66 65 66 89 45 65 76 69 88 ...(9)}, domain={}, ]
+Aug 12, 2017 6:03:04 PM org.apache.catalina.tribes.group.interceptors.TcpFailureDetector memberDisappeared
+INFO: Verification complete. Member disappeared[org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 17, 0, 2}:5000,{172, 17, 0, 2},5000, alive=6356343, securePort=-1, UDP Port=-1, id={126 -5 52 -84 21 -66 75 -21 -110 101 -87 103 24 -69 -60 8 }, payload={}, command={66 65 66 89 45 65 76 69 88 ...(9)}, domain={}, ]]
+Aug 12, 2017 6:03:04 PM org.apache.catalina.ha.tcp.SimpleTcpCluster memberDisappeared
+INFO: Received member disappeared:org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 17, 0, 2}:5000,{172, 17, 0, 2},5000, alive=6356343, securePort=-1, UDP Port=-1, id={126 -5 52 -84 21 -66 75 -21 -110 101 -87 103 24 -69 -60 8 }, payload={}, command={66 65 66 89 45 65 76 69 88 ...(9)}, domain={}, ]
+Aug 12, 2017 6:03:04 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Aug 12, 2017 6:03:04 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Aug 12, 2017 6:03:04 PM org.apache.openejb.server.SimpleServiceManager stop
+INFO: Stopping server services
+Aug 12, 2017 6:03:04 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: openejb
+Aug 12, 2017 6:03:04 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Aug 12, 2017 6:03:04 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
