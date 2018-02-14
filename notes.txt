@@ -1,0 +1,41 @@
+****Demo local
+
+cd /Users/eldermoraes/Developer/git/eldermoraes/javaoneus2017/build
+
+http://localhost/javaone
+
+*****ir para vagrant-docker-host2
+
+cd /Users/eldermoraes/Developer/git/eldermoraes/vagrant-docker-host2
+
+vagrant plugin install vagrant-managed-servers
+
+vagrant destroy -f
+
+vagrant up
+
+vagrant provision
+
+#vagrant provision --provision-with shell
+
+
+
+
+****Demo cloud
+
+*****SSH
+
+Demo
+ssh -i /Users/eldermoraes/.ssh/id_rsa ubuntu@129.158.70.202
+
+Toolscloud
+ssh -i /Users/eldermoraes/.ssh/id_rsa ubuntu@129.158.65.244
+
+
+*****URL's
+
+Toolscloud
+https://129.158.65.244
+
+Demo
+http://129.158.70.202/javaone
