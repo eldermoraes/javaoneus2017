@@ -35,7 +35,7 @@ ssh -i /Users/eldermoraes/.ssh/id_rsa ubuntu@129.158.65.244
 *****URL's
 
 Automation
-https://129.158.65.244:8080/
+http://129.158.65.244:8080/
 
 Demo
 http://129.158.74.27/javaone/
